@@ -6,10 +6,7 @@ const FooterStyledComponent = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
+  margin: 0;
 `;
 
 export default FooterStyledComponent;

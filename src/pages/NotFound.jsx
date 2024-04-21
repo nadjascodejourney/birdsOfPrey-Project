@@ -1,5 +1,12 @@
+import styled from "styled-components";
+import MainStyle from "../components/MainStyledComponent";
+
 const NotFound = () => {
-  return <div>NotFound</div>;
+  return (
+    <MainStyle>
+      <h1>NotFound</h1>
+    </MainStyle>
+  );
 };
 
 export default NotFound;
