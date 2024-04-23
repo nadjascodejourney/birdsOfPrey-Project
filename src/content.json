@@ -1,0 +1,239 @@
+{
+  "homepage": {
+    "title": "Birds of Prey",
+    "subtitle": "From Hawks to Owls",
+    "images": [
+      {
+        "src": "/src/images/bird-illu/Bird3.png",
+        "alt": "Drawing of a flying Bird"
+      },
+      {
+        "src": "/src/images/bird-illu/Bird2.png",
+        "alt": "Drawing of a flying Bird"
+      },
+      {
+        "src": "/src/images/bird-illu/Bird1.png",
+        "alt": "Drawing of a flying Bird"
+      }
+    ],
+    "mainText": "Experience the Power and Grace of beautiful Birds of Prey and learn more about the",
+    "highlightedText": "Eyes of the Sky",
+    "secondaryTitle": "Discover beautiful Birds",
+    "menuImages": [
+      {
+        "src": "/src/images/homepage/all-birds.jpg",
+        "alt": "two owls sitting on a tree"
+      },
+      {
+        "src": "/src/images/homepage/falcon.jpg",
+        "alt": "flying falcon"
+      },
+      {
+        "src": "/src/images/homepage/hawk.jpg",
+        "alt": "portrait of a hawk"
+      },
+      {
+        "src": "/src/images/homepage/eagle.jpg",
+        "alt": "a landing eagle"
+      },
+      {
+        "src": "/src/images/homepage/owl.jpg",
+        "alt": "owl portrait"
+      },
+      {
+        "src": "/src/images/homepage/buzzard.jpg",
+        "alt": "buzzard about to fly"
+      }
+    ]
+  },
+  "aboutpage": {
+    "title": "About us",
+    "paragraphs": [
+      {
+        "paragraphHeading": "Why is there such a Fascination for Birds of Prey?",
+        "text": "Birds of prey are nature's apex predators, playing a crucial role in the ecosystem. From the swift hawks that hunt from the skies to the wise owls that watch over the night, each species has a unique story to tell. Dive into the world of birds of prey and uncover the secrets they hold."
+      },
+      {
+        "paragraphHeading": "Explore, Learn, Connect",
+        "text": "Our website is designed to be your go-to resource for everything about birds of prey. From detailed profiles of each species to insights into their ecological significance, we offer a wealth of information to satisfy your curiosity. Whether you're a seasoned birder, a wildlife enthusiast, or simply someone who appreciates the beauty of nature, you'll find something here to inspire and enlighten you."
+      },
+      {
+        "paragraphHeading": "Join the Community",
+        "text": "We're more than just a collection of facts and images. Here you can find a community of bird lovers, conservationists, and nature enthusiasts. Join us in our mission to celebrate and protect the birds of prey by raising awareness and giving information. Share your experiences, ask questions and connect with like-minded people who share your passion for these magnificent creatures."
+      },
+      {
+        "paragraphHeading": "Discover majestic birds by yourself",
+        "text": "Are you ready to embark on this journey through the skies? Take part at our Workshops & learn more about Falconry and all your favorite Birds."
+      }
+    ],
+    "secondaryTitle": "Our Mission",
+    "mainText": [
+      "Each species has a unique story.Our mission is to uncover these stories, to share the secrets they hold, and to celebrate the beauty and majesty of these creatures.",
+
+      "We believe that understanding birds of prey is not just about appreciating their beauty or their role in the ecosystem. It's about connecting with the wild, about feeling a sense of awe and wonder as you learn about these animals that have captivated human imagination for centuries.",
+
+      "Our goal is therefore to offer you a diverse insight into the world of birds of prey: Be it through detailed bird portraits to help you with your species identification, captivating essays on falconry traditions and stories about birds of pray all around the world or the latest information on workshops and events in your area.  It is our passion for birds of prey that unites us all."
+    ],
+    "missionImages": [
+      {
+        "src": "/src/images/about-mission/mission-birds1.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds2.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds3.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds4.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds5.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds6.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds7.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds8.jpg",
+        "alt": ""
+      },
+      {
+        "src": "/src/images/about-mission/mission-birds9.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "falconrypage": {
+    "title": "Falconry",
+    "caption": "From the ancient civilizations of Mesopotamia to the bustling streets of modern cities, falconry has captivated the imagination of people across cultures and continents. Get a first impression of this fascinating symbiosis of man and bird by watching our video.",
+    "video": [
+      {
+        "src": "/src/videos/falconry.mp4"
+      }
+    ],
+    "secondaryTitle": "What is Falconry? When did it begin?",
+    "mainText": [
+      "Falconry is the art of training birds of prey, such as falcons, hawks, and eagles, to hunt wild game. This practice, which dates back to preliterate times, has evolved from a means of survival to a sport and a method for managing pests. Today, falconry is practiced worldwide, with strongholds in Britain, the United States, Central Asia, and several Persian Gulf states, among others.",
+      "The birds used in falconry are divided into three groups based on their hunting habits and environments: longwings, shortwings, and broadwings. Each group has its unique traits and is adapted to different types of prey and terrain. Longwings, such as peregrines and sakers, are skilled in hunting other birds in flight, making them ideal for open landscapes. Shortwings, like goshawks and sparrowhawks, excel in taking ground game and are often used in wooded areas. Broadwings, including eagles and buzzards, are best suited for hunting in rolling countryside and mountainous terrain.",
+      "Falconry has a rich history, with its roots tracing back to the Hittites and cave paintings from prehistoric sites. Over the centuries, it has flourished and declined, only to be revived in the 20th century as a humane and legal method for managing nuisance birds.",
+      "Falconry plays a significant role in Mongolia, particularly in the steppes and among the local communities. This ancient practice has deep historical roots, dating back to the time of the Mongol Empire, and has been passed down through generations. Falconry is not only a sport but also a cultural symbol of Mongolia, with the falcon being reclaimed as the National Bird in 2012. This recognition highlights the importance of falconry in the country's heritage and identity."
+    ],
+    "essay": {
+      "heading": "The Golden Eagle Festival",
+      "images": [
+        {
+          "src": "/src/images/golden-eagle/mongolia-3.jpg",
+          "alt": "three hunters with eagles on horses"
+        },
+        {
+          "src": "/src/images/golden-eagle/mongolia-2.jpg",
+          "alt": "hunter on a horse with eagle on his arm"
+        },
+        {
+          "src": "/src/images/golden-eagle/mongolia-group.webp",
+          "alt": "huntersgroup with eagles"
+        }
+      ],
+      "text": [
+        "The Golden Eagle Festival, which is a highlight of Mongolian falconry, showcases the art of hunting with these magnificent birds. This festival depicts the enduring tradition of falconry in Mongolia, where eagle masters and hunters display their skills and knowledge. It´s a celebration of the past and present of traditional hunting, offering an invaluable glimpse into the culture and history of Mongolia.",
+        "Falconry in Mongolia is also recognized as a UNESCO Intangible Cultural Heritage, reflecting its significance in the country's cultural heritage. The practice involves keeping and training falcons to hunt in their natural state, a tradition that has been practiced for over 4000 years. The Khuraldai Naadam, a falcon-related festival, was established to re-awaken and promote this fascinating aspect of traditional Mongolian hunting culture. This festival includes a wide range of activities, including competitions among falcon trainers, horseback archery, and cultural performances, showcasing the richness and diversity of Mongolian traditions."
+      ],
+      "highlightedText": "Today, falconry all over the world is not just about hunting: it's about understanding, appreciating, and preserving the beauty and majesty of birds of prey."
+    },
+    "moreBtn": "More Essays"
+  },
+  "eventsPage": {
+    "title": "Workshops and Events",
+    "events": [
+      {
+        "topics": "Up Close",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds7.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "History",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds3.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Health",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds6.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Art of Falconry",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds8.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Training",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds5.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Photography",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds4.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Art",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds2.jpg",
+          "alt": ""
+        }
+      },
+
+      {
+        "topics": "Literature & Culture",
+        "cardimage": {
+          "src": "/src/images/events-cards/event-birds1.jpg",
+          "alt": ""
+        }
+      }
+    ],
+    "moreBtn": "More Events"
+  },
+  "contactPage": {
+    "form": {
+      "fullname": "Your name:",
+      "email": "Your e-mail:",
+      "message": "Your Message:",
+      "submitBtn": "Submit"
+    }
+  },
+  "footer": {
+    "sitename": "Birds of Prey",
+    "year": "2024",
+    "Imprint": "Imprint",
+    "Datapolicy": "Datapolicy",
+    "SocialMedia": "Follow us on Social Media"
+  }
+}
