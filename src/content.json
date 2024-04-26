@@ -2,6 +2,10 @@
   "homepage": {
     "title": "Birds of Prey",
     "subtitle": "From Hawks to Owls",
+    "logo": {
+      "src": "/src/images/bird-illu/LogoHeader.png",
+      "alt": "small drawing of a bird"
+    },
     "images": [
       {
         "src": "/src/images/bird-illu/Bird3.png",
