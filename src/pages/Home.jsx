@@ -17,23 +17,24 @@ const Home = () => {
     <MainStyle>
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
-      <figure>
+      <figure className="bird-illus">
         {images.map((image, index) => (
-          <img key={index} src={image.src} alt={image.alt} /> // map the illus for landingpage
+          <img src={image.src} alt={image.alt} style={{ width: "25%" }} />
+
+          // map the illus for landingpage
         ))}
       </figure>
       <h3>
         {mainText} <span>{highlightedText}</span>
       </h3>
       <h2>{secondaryTitle}</h2>
-      <figure>
+
+      <figure className="bird-card-grid">
         {menuImages.map((image, index) => (
-          <img
-            key={index}
-            src={image.src}
-            alt={image.alt}
-            style={{ width: "25%" }} // change style later
-          /> // map birds for homepage
+          <div key={index}>
+            <img src={image.src} alt={image.alt} />
+            <figcaption className="captions">{image.caption}</figcaption>
+          </div> // map birds for homepage
         ))}
       </figure>
     </MainStyle>

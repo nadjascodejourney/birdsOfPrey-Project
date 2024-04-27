@@ -26,27 +26,33 @@
     "menuImages": [
       {
         "src": "/src/images/homepage/all-birds.jpg",
-        "alt": "two owls sitting on a tree"
+        "alt": "two owls sitting on a tree",
+        "caption": "All Birds"
       },
       {
         "src": "/src/images/homepage/falcon.jpg",
-        "alt": "flying falcon"
+        "alt": "flying falcon",
+        "caption": "Falcons"
       },
       {
         "src": "/src/images/homepage/hawk.jpg",
-        "alt": "portrait of a hawk"
+        "alt": "portrait of a hawk",
+        "caption": "Hawks"
       },
       {
         "src": "/src/images/homepage/eagle.jpg",
-        "alt": "a landing eagle"
+        "alt": "a landing eagle",
+        "caption": "Eagles"
       },
       {
         "src": "/src/images/homepage/owl.jpg",
-        "alt": "owl portrait"
+        "alt": "owl portrait",
+        "caption": "Owls"
       },
       {
         "src": "/src/images/homepage/buzzard.jpg",
-        "alt": "buzzard about to fly"
+        "alt": "buzzard about to fly",
+        "caption": "Buzzards"
       }
     ]
   },
