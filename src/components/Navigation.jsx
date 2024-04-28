@@ -17,7 +17,7 @@ const NavList = styled.ul`
     text-decoration: none;
   }
   a:hover {
-    color: #535bf2;
+    color: orange;
   }
 
   /* responsive: */

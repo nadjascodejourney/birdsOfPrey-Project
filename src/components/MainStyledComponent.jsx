@@ -2,22 +2,36 @@ import styled from "styled-components";
 import "../styles/fonts.css";
 
 const MainStyle = styled.main`
+
   font-family: "Jost", sans-serif;
   font-weight: 300;
 
   margin-top: calc(1vh + var(--header-height));
   /* responsive based on header height  */
-  
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+    "box"
+  }
+  .titlebox {
+    text-align: right;
+    grid-area: box;
+    align-self: top;
+    
+  }
   .titles {
     font-family: "Nothing You Could Do", cursive;
     font-weight: 400;
+    color: orange;
   }
 
   h1.maintitle {
-    font-size: clamp(2.5rem, 3rem + 3vw, 9rem);
-    padding: 42px;
-    margin: 0;
+    font-size: clamp(4rem, 4rem + 3vw, 9rem);
     white-space: nowrap; // prevent line break on smaller screens
   }
   h2.subtitle {
@@ -27,7 +41,7 @@ const MainStyle = styled.main`
   }
 
   h2.secondTitle {
-    font-size: clamp(2rem, 2rem + 1vw, 6rem);
+    font-size: clamp(3rem, 3rem + 1vw, 6rem);
   }
 
   h3 {
@@ -37,11 +51,14 @@ const MainStyle = styled.main`
   }
 
   figure.bird-illus {
+    grid-area: box;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2px;
-    width: 45vw;
+    width: 50vw;
+    margin: auto;
+    
    }
 
    .illu-box {
@@ -51,16 +68,17 @@ const MainStyle = styled.main`
     .illu-box:nth-child(1) {
       grid-column: 1;
       grid-row: 1;
+
       img {
         width: 100%;
         height: 100%;
         object-fit: contain;
       }
     }
+
     .illu-box:nth-child(2) {
       grid-column: 2;
       grid-row: 2;
-      
 
       img {
         width: 100%;
@@ -69,11 +87,20 @@ const MainStyle = styled.main`
         transform: rotate(4.503deg);
       }
 
+
     }
+
     .illu-box:nth-child(3) {
       grid-column: 1;
       grid-row: 2;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
+
   }
 
   figure.bird-card-grid {
@@ -86,6 +113,12 @@ const MainStyle = styled.main`
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       overflow: hidden;
     }
+
+    div:hover .captions {
+      color: orange;
+      
+    }
+
     img {
       width: 100%;
       height: 100%;
@@ -96,6 +129,7 @@ const MainStyle = styled.main`
 
     img:hover {
       filter: brightness(1);
+      
     }
 
     figcaption.captions {
@@ -106,9 +140,13 @@ const MainStyle = styled.main`
       font-size: calc(
         1.5rem + 2vw
       ); // fluid typography, no breakpoints, minimal
-      font-weight: 200;
+      font-weight: 300;
       color: white;
     }
+
+
+  
+
 
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
