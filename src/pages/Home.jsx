@@ -13,21 +13,25 @@ const Home = () => {
     menuImages,
   } = jsonData.homepage;
 
+  // hover effect bird-cards
+  const [ishovered, setIshovered] = useState(false);
+
   return (
     <MainStyle>
-      <h1>{title}</h1>
-      <h2>{subtitle}</h2>
+      <h1 className="titles maintitle">{title}</h1>
+      <h2 className="subtitle">{subtitle}</h2>
       <figure className="bird-illus">
         {images.map((image, index) => (
-          <img src={image.src} alt={image.alt} style={{ width: "25%" }} />
-
-          // map the illus for landingpage
+          <div key={index} className="illu-box">
+            <img src={image.src} alt={image.alt} />
+          </div>
         ))}
       </figure>
+
       <h3>
         {mainText} <span>{highlightedText}</span>
       </h3>
-      <h2>{secondaryTitle}</h2>
+      <h2 className="titles secondTitle">{secondaryTitle}</h2>
 
       <figure className="bird-card-grid">
         {menuImages.map((image, index) => (

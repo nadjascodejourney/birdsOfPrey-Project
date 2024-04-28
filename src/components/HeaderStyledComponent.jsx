@@ -1,7 +1,9 @@
 import styled from "styled-components";
+import "../styles/fonts.css";
 
 const HeaderStyledComponent = styled.header`
-  background-color: lightgrey;
+  font-family: "Jost", sans-serif;
+  background-color: white;
   display: flex;
   align-items: center;
   padding: 10px 15px;
@@ -9,6 +11,7 @@ const HeaderStyledComponent = styled.header`
   left: 0;
   right: 0;
   position: fixed;
+  z-index: 1;
 `;
 
 export default HeaderStyledComponent;
