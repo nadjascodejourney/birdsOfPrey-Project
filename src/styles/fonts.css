@@ -1,0 +1,43 @@
+/* Main Textfont => Jost */
+/* LIGHT */
+@font-face {
+  font-family: "Jost";
+  src: url("/src/fonts/static/Jost-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* Additional Styles of Jost font-family */
+/* EXTRALIGHT */
+@font-face {
+  font-family: "Jost";
+  src: url("/src/fonts/static/Jost-ExtraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  color: #ffffff;
+}
+/* REGULAR */
+@font-face {
+  font-family: "Jost";
+  src: url("/src/fonts/static/Jost-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* ITALIC */
+@font-face {
+  font-family: "Jost";
+  src: url("/src/fonts/static/Jost-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* Decorative Fonts */
+@font-face {
+  font-family: "Nothing You Could Do";
+  src: url("/src/fonts/NothingYouCouldDo-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}

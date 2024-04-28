@@ -1,6 +1,10 @@
 import styled from "styled-components";
+import "../styles/fonts.css";
 
 const MainStyle = styled.main`
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+
   margin-top: calc(1vh + var(--header-height));
   /* Anpassung basierend auf der Höhe des Headers */
   background-color: lightgrey;
@@ -8,7 +12,7 @@ const MainStyle = styled.main`
   figure.bird-card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: calc(16px + 4vw); // responsive gap
 
     div {
       border-radius: 10px;
@@ -24,9 +28,13 @@ const MainStyle = styled.main`
 
     figcaption.captions {
       position: relative;
-      top: -20%;
+      top: -30%;
       text-align: center;
-      font-size: 3rem;
+      // responsive font-size
+      font-size: calc(
+        1.5rem + 2vw
+      ); // fluid typography, no breakpoints, minimal
+      font-weight: 200;
     }
 
     @media (max-width: 768px) {
