@@ -144,10 +144,6 @@ const MainStyle = styled.main`
       color: white;
     }
 
-
-  
-
-
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
     }
