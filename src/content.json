@@ -3,20 +3,20 @@
     "title": "Birds of Prey",
     "subtitle": "From Hawks to Owls",
     "logo": {
-      "src": "/src/images/bird-illu/LogoHeader.png",
+      "src": "/images/bird-illu/LogoHeader.png",
       "alt": "small drawing of a bird"
     },
     "images": [
       {
-        "src": "/src/images/bird-illu/Bird3.png",
+        "src": "/images/bird-illu/Bird3.png",
         "alt": "Drawing of a flying Bird"
       },
       {
-        "src": "/src/images/bird-illu/Bird1.png",
+        "src": "/images/bird-illu/Bird1.png",
         "alt": "Drawing of a flying Bird"
       },
       {
-        "src": "/src/images/bird-illu/Bird2.png",
+        "src": "/images/bird-illu/Bird2.png",
         "alt": "Drawing of a flying Bird"
       }
     ],
@@ -25,32 +25,32 @@
     "secondaryTitle": "Discover beautiful Birds",
     "menuImages": [
       {
-        "src": "/src/images/homepage/all-birds.jpg",
+        "src": "/images/homepage/all-birds.jpg",
         "alt": "two owls sitting on a tree",
         "caption": "All Birds"
       },
       {
-        "src": "/src/images/homepage/falcon.jpg",
+        "src": "/images/homepage/falcon.jpg",
         "alt": "flying falcon",
         "caption": "Falcons"
       },
       {
-        "src": "/src/images/homepage/hawk.jpg",
+        "src": "/images/homepage/hawk.jpg",
         "alt": "portrait of a hawk",
         "caption": "Hawks"
       },
       {
-        "src": "/src/images/homepage/eagle.jpg",
+        "src": "/images/homepage/eagle.jpg",
         "alt": "a landing eagle",
         "caption": "Eagles"
       },
       {
-        "src": "/src/images/homepage/owl.jpg",
+        "src": "/images/homepage/owl.jpg",
         "alt": "owl portrait",
         "caption": "Owls"
       },
       {
-        "src": "/src/images/homepage/buzzard.jpg",
+        "src": "/images/homepage/buzzard.jpg",
         "alt": "buzzard about to fly",
         "caption": "Buzzards"
       }
@@ -86,39 +86,39 @@
     ],
     "missionImages": [
       {
-        "src": "/src/images/about-mission/mission-birds1.jpg",
+        "src": "/images/about-mission/mission-birds1.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds2.jpg",
+        "src": "/images/about-mission/mission-birds2.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds3.jpg",
+        "src": "/images/about-mission/mission-birds3.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds4.jpg",
+        "src": "/images/about-mission/mission-birds4.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds5.jpg",
+        "src": "/images/about-mission/mission-birds5.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds6.jpg",
+        "src": "/images/about-mission/mission-birds6.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds7.jpg",
+        "src": "/images/about-mission/mission-birds7.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds8.jpg",
+        "src": "/images/about-mission/mission-birds8.jpg",
         "alt": ""
       },
       {
-        "src": "/src/images/about-mission/mission-birds9.jpg",
+        "src": "/images/about-mission/mission-birds9.jpg",
         "alt": ""
       }
     ]
@@ -128,7 +128,7 @@
     "caption": "From the ancient civilizations of Mesopotamia to the bustling streets of modern cities, falconry has captivated the imagination of people across cultures and continents. Get a first impression of this fascinating symbiosis of man and bird by watching our video.",
     "video": [
       {
-        "src": "/src/videos/falconry.mp4"
+        "src": "/videos/falconry.mp4"
       }
     ],
     "secondaryTitle": "What is Falconry? When did it begin?",
@@ -142,15 +142,15 @@
       "heading": "The Golden Eagle Festival",
       "images": [
         {
-          "src": "/src/images/golden-eagle/mongolia-3.jpg",
+          "src": "/images/golden-eagle/mongolia-3.jpg",
           "alt": "three hunters with eagles on horses"
         },
         {
-          "src": "/src/images/golden-eagle/mongolia-2.jpg",
+          "src": "/images/golden-eagle/mongolia-2.jpg",
           "alt": "hunter on a horse with eagle on his arm"
         },
         {
-          "src": "/src/images/golden-eagle/mongolia-group.webp",
+          "src": "/images/golden-eagle/mongolia-group.webp",
           "alt": "huntersgroup with eagles"
         }
       ],
@@ -168,7 +168,7 @@
       {
         "topics": "Up Close",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds7.jpg",
+          "src": "/images/events-cards/event-birds7.jpg",
           "alt": ""
         }
       },
@@ -176,7 +176,7 @@
       {
         "topics": "History",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds3.jpg",
+          "src": "/images/events-cards/event-birds3.jpg",
           "alt": ""
         }
       },
@@ -184,7 +184,7 @@
       {
         "topics": "Health",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds6.jpg",
+          "src": "/images/events-cards/event-birds6.jpg",
           "alt": ""
         }
       },
@@ -192,7 +192,7 @@
       {
         "topics": "Art of Falconry",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds8.jpg",
+          "src": "/images/events-cards/event-birds8.jpg",
           "alt": ""
         }
       },
@@ -200,7 +200,7 @@
       {
         "topics": "Training",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds5.jpg",
+          "src": "/images/events-cards/event-birds5.jpg",
           "alt": ""
         }
       },
@@ -208,7 +208,7 @@
       {
         "topics": "Photography",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds4.jpg",
+          "src": "/images/events-cards/event-birds4.jpg",
           "alt": ""
         }
       },
@@ -216,7 +216,7 @@
       {
         "topics": "Art",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds2.jpg",
+          "src": "/images/events-cards/event-birds2.jpg",
           "alt": ""
         }
       },
@@ -224,7 +224,7 @@
       {
         "topics": "Literature & Culture",
         "cardimage": {
-          "src": "/src/images/events-cards/event-birds1.jpg",
+          "src": "/images/events-cards/event-birds1.jpg",
           "alt": ""
         }
       }
