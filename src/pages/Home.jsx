@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import MainStyle from "../components/MainStyledComponent";
 import jsonData from "../content.json";
+import FetchBirds from "../components/FetchBirds";
 
 const Home = () => {
   const {
@@ -23,7 +24,7 @@ const Home = () => {
         <figure className="bird-illus">
           {images.map((image, index) => (
             <div key={index} className="illu-box">
-              <img src={image.src} alt={image.alt} />
+              <img className="illu" src={image.src} alt={image.alt} />
             </div>
           ))}
         </figure>
@@ -42,6 +43,8 @@ const Home = () => {
           </div>
         ))}
       </figure>
+
+      {/* <FetchBirds /> */}
     </MainStyle>
   );
 };

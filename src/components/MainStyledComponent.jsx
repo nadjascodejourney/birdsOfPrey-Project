@@ -1,5 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import "../styles/fonts.css";
+
+const flyAnimation = keyframes`
+  0% {
+    transform: translateY(0); /* Startposition */
+  }
+  100% {
+    transform: translateY(200px); /* Endposition */
+  }
+`;
 
 const MainStyle = styled.main`
 
@@ -63,7 +72,10 @@ const MainStyle = styled.main`
 
    .illu-box {
     overflow: visible;
+    animation: ${flyAnimation} 5s ease-in-out infinite alternate; /* Animation hinzufügen */
+
    }
+   
 
     .illu-box:nth-child(1) {
       grid-column: 1;

@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <HeaderStyledComponent ref={headerRef}>
-      <img src="/src/images/bird-illu/LogoHeader.png" alt="logo" />
+      <img src="/images/bird-illu/LogoHeader.png" alt="logo" />
       <Navigation />
     </HeaderStyledComponent>
   );
