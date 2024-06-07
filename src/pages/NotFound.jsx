@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import MainStyle from "../components/MainStyledComponent";
+import HomeStyle from "../components/HomeStyledComponent";
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
-    <MainStyle>
+    <HomeStyle>
       <h1>NotFound</h1>
       <Link to="/">Home</Link>
-    </MainStyle>
+    </HomeStyle>
   );
 };
 

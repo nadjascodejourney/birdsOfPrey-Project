@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import MainStyle from "../components/MainStyledComponent";
+import HomeStyle from "../components/HomeStyledComponent";
 
 const Falconry = () => {
   return (
-    <MainStyle>
+    <HomeStyle>
       <h1>Falconry</h1>
-    </MainStyle>
+    </HomeStyle>
   );
 };
 

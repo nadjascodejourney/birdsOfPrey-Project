@@ -1,1 +1,49 @@
+body {
+  /* background: linear-gradient(
+    180deg,
+    rgb(246, 223, 204) 0%,
+    rgb(124, 153, 185) 100%
+  ); */
+  /* background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  ); */
+  /*   background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+ */ /*  background-image: linear-gradient(
+    to top,
+    #d5dee7 0%,
+    #ffafbd 0%,
+    #c9ffbf 100%
+  ); */
+  /*   background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+ */
+  background-image: radial-gradient(
+    circle 1292px at -13.6% 51.7%,
+    /* 1292px is the distance from the center of the circle to the edge */
+      /* -13.6% is the x-axis position of the center of the circle */
+      /* 51.7% is the y-axis position of the center of the circle */ #003844 0%,
+    #a3d9b9 51.5%,
+    #fffcf7 88.6%
+  );
+}
 
+body {
+  background: linear-gradient(-45deg, #f4b39f, #fffcf7, #003844, #afe8da);
+  background-size: 400% 400%; /* 400% is the size of the gradient */
+  animation: gradient 25s ease-in-out infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; /* 0% is the x-axis position of the background */
+  }
+  50% {
+    background-position: 100% 50%; /* 100% is the x-axis position of the background, 50% is the y-axis position of the background*/
+  }
+  100% {
+    background-position: 0% 50%; /* 0% is the x-axis position of the background */
+  }
+}

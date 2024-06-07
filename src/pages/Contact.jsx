@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import MainStyle from "../components/MainStyledComponent";
+import HomeStyle from "../components/HomeStyledComponent";
 
 const Contact = () => {
   return (
-    <MainStyle>
+    <HomeStyle>
       <h1>Contact</h1>
-    </MainStyle>
+    </HomeStyle>
   );
 };
 
