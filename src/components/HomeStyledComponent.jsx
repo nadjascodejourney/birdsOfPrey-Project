@@ -8,7 +8,7 @@ const flyBird = keyframes`
 }
 
 100% {
-  transform: translate(20vw, -100vh) rotate(0deg); /* Anpassung der Distanz und Rotation */
+  transform: translate(20vw, -120vh) rotate(0deg); /* Anpassung der Distanz und Rotation */
 }
 `;
 const flyBird2 = keyframes`
@@ -16,7 +16,7 @@ const flyBird2 = keyframes`
   transform: translate(100vw, 10vh) rotate(0deg);
 }
 100% {
-  transform: translate(15vw, -100vh) rotate(-20deg); /* Anpassung der Distanz und Rotation */
+  transform: translate(15vw, -120vh) rotate(-20deg); /* Anpassung der Distanz und Rotation */
 }
 `;
 const flyBird3 = keyframes`
@@ -30,21 +30,27 @@ const flyBird3 = keyframes`
 
 /* Styling for the whole main part of the Homepage */
 const HomeStyle = styled.main` 
+/* >> FONTS */
+
   font-family: "Jost", sans-serif;
   font-weight: 300;
 
+/* >> RESPONSIVE based on header height  */
+
   margin-top: calc(1vh + var(--header-height));
-  /* responsive based on header height  */
+
+/* >> DISPLAY */
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  /* >> ELEMENT IN HOMELANDINGCOMPONENT.JSX */
   .wrapper {
-    height: 70vh;
+    height: 30vh;
     width: 90vw;
   }
-  
+
   .titlebox {
     text-align: center;
     margin-top: 10vh;
@@ -57,19 +63,21 @@ const HomeStyle = styled.main`
   }
 
   /* "Birds of Prey" */
+
   h1.maintitle {
     white-space: nowrap; // prevent line break on smaller screens
     margin: 0;
-    font-size: 32px;
+    font-size: 46px;
   }
   /* "From Hawks to Owls" */
+
   h2.subtitle {
     font-family: "Jost", sans-serif;
     font-weight: 200;
     margin: 0;
   }
-
   /* "Discover beautiful birds" */
+
   h2.secondTitle {
 /*     font-size: clamp(3rem, 3rem + 1vw, 6rem);*/ 
 font-size: 32px;
@@ -107,10 +115,11 @@ font-size: 32px;
         position: absolute;
           width: 25vw;
           z-index: 1;
-          animation: ${flyBird3} 8s ease-in-out forwards; /* Animation für das erste Bild */
+          animation: ${flyBird3} 7s ease-in-out forwards; /* Animation für das erste Bild */
         }
   }
 
+  /* >> MAIN-MENU-BIRDS */
   /* BIRD-CARD-GRID */
 
   figure.bird-card-grid {

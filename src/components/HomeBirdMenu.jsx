@@ -5,7 +5,7 @@ const HomeBirdMenu = () => {
     jsonData.homepage;
 
   return (
-    <div>
+    <div className="main-menu-birds">
       <h3>
         {mainText} <span>{highlightedText}</span>
       </h3>
