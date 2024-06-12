@@ -7,15 +7,19 @@ Here you'll find all the details about the project's progress, technologies used
 ## Project Overview
 This website aims to be a comprehensive resource for information about birds of prey. It will feature blog articles, detailed bird portraits, and a listing of upcoming events related to birds of prey in Germany. Users will be able to search for events based on their location.
 
-## Features
+Here you can see a Screenshot of the Homepage and its current state:
 
-Blog Articles: Informative and engaging articles about various topics related to birds of prey.
-Bird Portraits: Detailed profiles of different birds of prey, including descriptions, habitats, and behaviors.
+  <img src="./Screenshot from 2024-06-12 17-03-03.png">
+
+
+## Features
+* Blog Articles: Informative and engaging articles about various topics related to birds of prey.
+* Bird Portraits: Detailed profiles of different birds of prey, including descriptions, habitats, and behaviors.
 
 ## Upcoming Features
-Event Listings: A searchable database of upcoming events related to birds of prey in Germany.
-Search Functionality: Allowing users to find events based on their location.
-Custom API and Database: A bespoke API providing data specifically about birds of prey.
+* Event Listings: A searchable database of upcoming events related to birds of prey in Germany.
+* Search Functionality: Allowing users to find events based on their location.
+* Custom API and Database: A bespoke API providing data specifically about birds of prey.
 
 
 ## Tech Stack
@@ -25,9 +29,11 @@ Custom API and Database: A bespoke API providing data specifically about birds o
 * Build Tool: Vite
 * Hosting: Netlify
 * Design: Figma (for wireframes and prototypes)
+* Fonts: Google Fonts
 
 ## Design Process
 I am using Figma to design the wireframes and prototypes of the website. This helps in visualizing the layout and user experience before diving into development.
+=> [Figma Layout](https://www.figma.com/design/p84BjPC44LqyofmyHNmwa4/Birds-of-Prey---Basic-Layout?node-id=1-2&t=hocG6TuZEYWXLXNQ-1)
 
 ## Development Status
 This project is a work in progress and is being developed at a slow pace due to my academic commitments. Regular updates will be made as I continue to work on the website.
