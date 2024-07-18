@@ -8,7 +8,7 @@ Here you'll find all the details about the project's progress, technologies used
 
 This website aims to be a comprehensive resource for information about birds of prey. It will feature blog articles, detailed bird portraits, and a listing of upcoming events related to birds of prey in Germany. Users will be able to search for events based on their location.
 
-![Prototype]("/public/videos/prototypevideo.webm)
+![Prototype]("/public/videos/prototypevideo.gif")
 
 ## Features
 
