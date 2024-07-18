@@ -23,16 +23,18 @@ Custom API and Database: A bespoke API providing data specifically about birds o
 
 ## Tech Stack
 
-- Frontend: React, CSS
-- Backend: Express, Mongoose (upcoming)
-- Database: MongoDB Atlas (upcoming)
-- Build Tool: Vite
-- Hosting: Netlify
-- Design: Figma (for wireframes and prototypes)
+Frontend: React, CSS
+Backend: Express, Mongoose (upcoming)
+Database: MongoDB Atlas (upcoming)
+Build Tool: Vite
+Hosting: Netlify
+Design: Figma (for wireframes and prototypes)
+Fonts: Google Fonts
 
 ## Design Process
 
 I am using Figma to design the wireframes and prototypes of the website. This helps in visualizing the layout and user experience before diving into development.
+=> [Figma Layout](https://www.figma.com/design/p84BjPC44LqyofmyHNmwa4/Birds-of-Prey---Basic-Layout?node-id=1-2&t=hocG6TuZEYWXLXNQ-1)
 
 ## Development Status
 
