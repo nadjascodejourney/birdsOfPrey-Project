@@ -8,28 +8,28 @@ Here you'll find all the details about the project's progress, technologies used
 
 This website aims to be a comprehensive resource for information about birds of prey. It will feature blog articles, detailed bird portraits, and a listing of upcoming events related to birds of prey in Germany. Users will be able to search for events based on their location.
 
-![Prototype](./prototypevideo.webm)
+![Prototype]("/public/videos/prototypevideo.webm)
 
 ## Features
 
-Blog Articles: Informative and engaging articles about various topics related to birds of prey.
-Bird Portraits: Detailed profiles of different birds of prey, including descriptions, habitats, and behaviors.
+- Blog Articles: Informative and engaging articles about various topics related to birds of prey.
+- Bird Portraits: Detailed profiles of different birds of prey, including descriptions, habitats, and behaviors.
 
 ## Upcoming Features
 
-Event Listings: A searchable database of upcoming events related to birds of prey in Germany.
-Search Functionality: Allowing users to find events based on their location.
-Custom API and Database: A bespoke API providing data specifically about birds of prey.
+- Event Listings: A searchable database of upcoming events related to birds of prey in Germany.
+- Search Functionality: Allowing users to find events based on their location.
+- Custom API and Database: A bespoke API providing data specifically about birds of prey.
 
 ## Tech Stack
 
-Frontend: React, CSS
-Backend: Express, Mongoose (upcoming)
-Database: MongoDB Atlas (upcoming)
-Build Tool: Vite
-Hosting: Netlify
-Design: Figma (for wireframes and prototypes)
-Fonts: Google Fonts
+- Frontend: React, CSS
+- Backend: Express, Mongoose (upcoming)
+- Database: MongoDB Atlas (upcoming)
+- Build Tool: Vite
+- Hosting: Netlify
+- Design: Figma (for wireframes and prototypes)
+- Fonts: Google Fonts
 
 ## Design Process
 
