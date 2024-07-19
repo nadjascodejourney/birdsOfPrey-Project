@@ -13,7 +13,7 @@ export const RaptorContextProvider = ({ children }) => {
     axios
       .get(`${baseURL}/raptors`)
       .then((response) => {
-        console.log("Fetched Raptors:", response.data); // Add this line
+        console.log("Fetched Raptors:", response.data); // Add this line to check if the data is fetched correctly
 
         setRaptors(response.data);
       })
