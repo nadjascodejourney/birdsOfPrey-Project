@@ -8,7 +8,7 @@ const Home = () => {
     <HomeStyle>
       <HomeLandingComponent />
       <HomeBirdMenu />
-      {/*   <FetchBirds /> */}
+      {/*       <FetchBirds />*/}
     </HomeStyle>
   );
 };
