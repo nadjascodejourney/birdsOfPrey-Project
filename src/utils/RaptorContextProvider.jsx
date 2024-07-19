@@ -12,7 +12,11 @@ export const RaptorContextProvider = ({ children }) => {
     // fetch data with axios:
     axios
       .get(`${baseURL}/raptors`)
-      .then((response) => setRaptors(response.data))
+      .then((response) => {
+        console.log("Fetched Raptors:", response.data); // Add this line
+
+        setRaptors(response.data);
+      })
       .catch((error) => console.error("error fetching data", error));
   }, []);
 
