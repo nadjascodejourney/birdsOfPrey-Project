@@ -2,6 +2,7 @@ import HomeStyle from "../components/HomeStyledComponent";
 import FetchBirds from "../components/FetchBirds";
 import HomeLandingComponent from "../components/HomeLandingComponent";
 import HomeBirdMenu from "../components/HomeBirdMenu";
+import { RaptorsDataDisplay } from "../components/RaptorsDataDisplay";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeLandingComponent />
       <HomeBirdMenu />
       {/*       <FetchBirds />*/}
+      <RaptorsDataDisplay />
     </HomeStyle>
   );
 };

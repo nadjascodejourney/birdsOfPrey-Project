@@ -38,23 +38,19 @@ I am using Figma to design the wireframes and prototypes of the website. This he
 
 ## Development Status
 
-This project is a work in progress and is being developed at a slow pace due to my academic commitments. Regular updates will be made as I continue to work on the website.
+This project is a work in progress.
 
-## Future Plans
+Merged Changes are automatically deployed via Netlify, making this project a very simple CI/CD approach and to ensure that the work-in-progess application is in a stable and up-to-date state.
 
-As this is an ongoing project, I plan to add more features over time. Some of the potential future additions include:
+Some of the future additions include:
 
+- Building an API: [backendproject-birdsofprey](https://github.com/nadjascodejourney/backendproject-birdsofprey-api)
 - User accounts and profiles
 - Interactive maps for event locations
 - Enhanced search and filter options for bird portraits and articles
 - Integration with external bird-watching databases and resources
 
-## How to Contribute
-
-I appreciate any feedback or suggestions you may have. Feel free to open an issue if you have any ideas or encounter any problems. If you would like to work with me on this project, send me a DM and we´ll figure out, how we could bring this forward together! 💪
-
 ## Contact
 
-If you have any questions or would like to get in touch, you can reach me via [nadja.probst25@gmail.com]
-
-**Thank you for visiting my repository! I hope you find the Birds of Prey website informative and engaging once it's completed. Stay tuned for updates!**
+I appreciate any feedback or suggestions you may have.
+Feel free to contact me via PN, if you have any ideas or encounter any problems.
